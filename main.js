@@ -87,7 +87,7 @@ form.addEventListener('submit',e =>{
     }else{
         errorCvc.style.display = "none";
     }
-    if(errorName.style.display =="none" && errorDate.style.display=="none" && errorCvc.style.display ==="none" && errorDate.style.display ==="none"){
+    if(errorName.style.display =="none" && errorDate.style.display=="none" && errorCvc.style.display ==="none" && errorNumber.style.display ==="none"){
         const numberString = number.toString();
         formatedNumberString = '';
         for(let i =0;i<numberString.length;i++){
